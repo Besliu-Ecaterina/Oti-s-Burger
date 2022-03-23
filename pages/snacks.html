@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/menu.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="icon" href="../images/general/main-logo.png" type="image/x-icon">
+    <title>Oti's Burger</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-navigation">
+            <img class="header-logo" src="../images/general/main-logo.png" alt="Logotipul Otis Burger" width="80" height="80">            
+            <ul class="site-navigation">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="burger.html">Products</a></li>
+                <li><a href="contacts.html">Contact Us</a></li>
+            </ul>
+            <button class="nav-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <button class="mobile-close">x</button>
+        </nav>
+    </header>
+    <main>
+        <div class="menu-container">
+            <button class="menu">Menu</button>
+            <!-- <a href="#" class="btn">Menu</a> -->
+        <ul class="menu-nav">
+            <li class="nav-item">
+                <a class="button" type="button" href="combo.html">Combo</a>
+            </li>
+            <li class="nav-item">
+                <a class="button" type="button" href="burger.html">Burger</a>
+            </li>
+            <li class="nav-item">
+                <a class="button" type="button" href="kebab.html">Kebab</a>
+            </li>
+            <li class="nav-item">
+                <a class="button active-button" type="button" href="snacks.html">Snacks</a>
+            </li>
+            <li class="nav-item">
+                <a class="button" type="button" href="salat.html">Salate</a>
+        </ul>
+        </div>
+        <ul class="menu-list">
+            <li class="menu-item">
+                <img width="200" height="200" src="../images/snacks/snacks7.png" alt="">
+                <h3>Cartofi Pai</h3>
+                <p>20 Lei</p>
+            </li>
+            <li class="menu-item">
+                <img width="200" height="200" src="../images/snacks/snacks6.png" alt="">
+                <h3>Cartofi Picanți</h3>
+                <p>25 lei</p>
+            </li>
+            <li class="menu-item">
+                <img width="200" height="200" src="../images/snacks/snacks4.png" alt="">
+                <h3>Cartofi cu cașcaval și ceapă caramelizată</h3>
+                <p>35 lei</p>
+            </li>
+            <li class="menu-item">
+                <img width="200" height="200" src="../images/snacks/snacks9.png" alt="">
+                <h3>Cartofi cu nutella și banană</h3>
+                <p>35 lei</p>
+            </li>
+            <li class="menu-item">
+                <img width="200" height="200" src="../images/snacks/snacks2.png" alt="">
+                <h3>Inele de ceapă</h3>
+                <p>35 lei</p>
+            </li>
+            <li class="menu-item">
+                <img width="200" height="200" src="../images/snacks/snacks5.png" alt="">
+                <h3>Cartofi cu parmezan și usturoi</h3>
+                <p>40 lei</p>
+            </li>
+            <li class="menu-item">
+                <img width="200" height="200" src="../images/snacks/snacks1.png" alt="">
+                <h3>Crispy de pui</h3>
+                <p>40 lei</p>
+            </li>
+            <li class="menu-item">
+                <img width="200" height="200" src="../images/snacks/snacks8.png" alt="">
+                <h3>Asorti Cartofi</h3>
+                <div class="info-container info-container-1 snacks">
+                    <p class="info">cartofi țărănești, bile, pai</p>
+                    <button class="hide-btn" onclick="hide1()">Ascunde</button>
+                </div>
+                <p>45 lei</p>
+                    <button class="details-btn details-btn-1" onclick="show1()">Detalii</button>
+            </li>
+            <li class="menu-item">
+                <img width="200" height="200" src="../images/snacks/snacks3.png" alt="">
+                <h3>Pelmeni prăjiți cu sos barbeque</h3>
+                <p>50 lei</p>
+            </li>
+        </ul>
+    </main>
+    <footer class="main-footer">
+        <div class="container">
+        <p class="footer-contacts"> 
+            Oti's Burger <br>
+            Adresa: Vasile Alecsandri 13 Ungheni <br>
+            Telefon: 0236 20 202 <br>
+            vera-olei@mail.ru <br>
+            <a class="found" href="contacts.html">Cum să ajungeți la noi?</a> 
+        </p>
+        <div class="social-footer">
+            <img class="footer-logo" src="../images/general/main-logo.png" width="95" height="95" alt="Logotipul Oti's Burger">
+            <p>Follow Us!</p>
+                <a target="_blank" class="button social-button"  href="https://www.instagram.com/otisburger.un/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a target="_blank" class="button social-button" href="https://www.facebook.com/otisburger.un/" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="create">
+            <p>
+                Acest site a fost creat în cadrul competiției
+             "Tekwill Junior Ambassadors" organizat de
+              proiectul "Tekwill în fiecare școală"
+               și nu reflectă neapărat opinia proiectului
+            </p>
+        </div>
+        </div>
+    </footer>
+    <div class="hide-map">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1355.193233547021!2d27.79638377719996!3d47.20901996462726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb015ebb7e8389%3A0x29d9c4838713b52a!2zT1RJ4oCZUyBCVVJHRVI!5e0!3m2!1sro!2s!4v1646665488695!5m2!1sro!2s" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>        
+        <button class="map-close" type="button">x</button>
+    </div>
+    <script src="../js/script.js"></script>
+    <script src="../js/products.js"></script>
+    <script src="../js/map.js"></script>
+    <script src="../js/info.js"></script>
+</body>
+</html>
